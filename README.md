@@ -9,7 +9,7 @@ Jika ingin lebih singkat silahkan install XAMPP kemudian Pilih PHP Versi 7
 https://www.apachefriends.org/download.html
 
 Instalasi Kode
-- Pull semua kode di folder htdocs.
+- Clone semua kode di folder htdocs.
 - Import file database yang bernama DBALL.sql di PHPMyAdmin atau MySQL CLI.
 - Silahkan jalankan di Localhost atau VPS.
 
