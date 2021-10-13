@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !index.php
+RewriteRule api--(.*) index.php?route=$1
+RewriteRule transaction--(.*)--(.*)--(.*) index.php?route=$1&references_id=$2&merchant_id=$3
+RewriteRule delete--(.*)--(.*) index.php?route=$1&invoice_id=$2
